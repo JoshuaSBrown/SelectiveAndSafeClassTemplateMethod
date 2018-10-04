@@ -75,7 +75,7 @@ class BaseGarage {
 
 ```
 
-And this is where the problem occurs because say that I put a truck in the garage but I pull I pull it out as a Sedan. Well this code will compile but you end up with a segment fault and no warning. The code in this repo shows how to avoid these segment faults by ensuring that you can only cast to either the base class or the original class that was placed into the container. So the truck could be cast to base or truck with no problems but will throw an error if the user tries to cast it to a sedan. 
+And this is where the problem occurs because say that I put a truck in the garage but I pull it out as a Sedan. Well this code will compile but you end up with a segment fault and no warning. The code in this repo shows how to avoid these segment faults by ensuring that you can only cast to either the base class or the original class of the object. So the truck could be cast to base or truck with no problems but will throw an error if the user tries to cast it to a sedan. 
 
 ## Compile
 
