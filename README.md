@@ -82,5 +82,5 @@ And this is where the problem occurs because say that I put a truck in the garag
 To compile the code 
 
 ```
-g++ -o vehicle vehicle.cpp -std=c++11
+g++ -o vehicle vehicle.cpp -std=c++11 -Wall -pedantic -Werror
 ```
