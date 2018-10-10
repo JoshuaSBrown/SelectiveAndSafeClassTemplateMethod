@@ -1,5 +1,5 @@
-# SelectiveAndSafeClassTemplateMethod
-The contained code simply displays how to create a container which stores a vector of a base class, the container is able to selectively return the contents of the container in any type safely by ensuring that the type is either of base type or is the same type of class that the element was oringinally created as.
+# Selective and Safe Class Template Method for Utilizing Polymorphism 
+The contained code simply displays how to create a polymorphic container which stores a vector of a base class, the container is able to selectively return the contents of the container in any type safely by ensuring that the type is either of base type or is the same type of class that the element was oringinally created as. Or if you want to be even more seletive you can specificaly choose which types you want the the set method to be allowed to store and therefore return. 
 
 I will provide an example to explain. Suppose that we have 3 vehicles:
 
